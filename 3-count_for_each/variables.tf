@@ -16,8 +16,16 @@ variable "allowed_locations" {
   default = [ "West Europe", "North Europe", "East US" ]
 }
 
+//count example
+
+# variable "storage_account_name" {
+#   type = list(string)
+#   description = "name of the storage account"
+#   default = [ "storagewe98764","storageeus987362" ]
+# }
+
 variable "storage_account_name" {
-  type = list(string)
+  type = set(string)
   description = "name of the storage account"
-  default = [ "storagewe98764","storageeus987362" ]
+  default = [ "value187372","value18t28731" ]
 }
