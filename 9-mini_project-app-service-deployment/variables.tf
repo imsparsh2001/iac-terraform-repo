@@ -19,5 +19,11 @@ variable "plan_name" {
 variable "webapp_name" {
   type = string
   description = "name of app service"
-  default = "dev-app-service"
+  default = "devappserviceunique109378"
+}
+
+variable "slot_name" {
+  type = string
+  description = "name of staging slot"
+  default = "staging-slot"
 }
