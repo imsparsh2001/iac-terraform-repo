@@ -13,16 +13,6 @@ variable "resource_group_name" {
   type        = string
 }
 
-variable "asp_name" {
-  description = "Base name for the App Service Plan"
-  type        = string
-}
-
-variable "app_service_name" {
-  description = "name for the App Service"
-  type        = string
-}
-
 variable "storage_account_name" {
   description = "name for the Storage Account"
   type        = string

@@ -1,0 +1,11 @@
+my_env               = "prod"
+location             = "East US"
+resource_group_name  = "Sparsh_Jaipuriyar"
+asp_name             = "demo-asp"
+app_service_name     = "prodapplication"
+storage_account_name = "prodstorage"
+app_service_tier     = "Premium"
+app_service_size     = "P1v2"
+account_tier         = "Premium"
+account_replication_type = "GRS"
+    
