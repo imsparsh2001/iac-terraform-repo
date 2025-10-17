@@ -1,0 +1,5 @@
+location              = "West Europe"
+resource_group_name   = "rg-test"
+asp_name              = "demo-asp"
+app_service_name      = "testapp"
+storage_account_name  = "teststorage"

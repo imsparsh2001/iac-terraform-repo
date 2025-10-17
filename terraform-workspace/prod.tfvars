@@ -1,0 +1,5 @@
+location              = "Central India"
+resource_group_name   = "rg-prod"
+asp_name              = "demo-asp"
+app_service_name      = "prodapp"
+storage_account_name  = "prodstorage"

@@ -1,0 +1,5 @@
+location              = "East US"
+resource_group_name   = "rg-dev"
+asp_name              = "demo-asp"
+app_service_name      = "devapp"
+storage_account_name  = "devstorage"

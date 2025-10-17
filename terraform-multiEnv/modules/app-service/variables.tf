@@ -25,7 +25,7 @@ variable "app_service_tier" {
 }
 
 variable "app_service_size" {
-  description = "App service size (e.g. S1, B1)"
+  description = "App service size"
   type        = string
   default     = "S1"
 }
